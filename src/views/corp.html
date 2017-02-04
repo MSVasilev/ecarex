@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/css/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.pjax.js"></script>
+    <script type="text/javascript" src="/js/tscript.js"></script>
+
+
+</head>
+<body>
+    <div class="container-fluid karkas">
+        <div class="row corp_header">
+
+
+            <form class="search suggestForm"  action="" itemprop="potentialAction" itemscope="" itemtype="http://schema.org/SearchAction">
+                <meta itemprop="target" content=""/>
+                <a class="nameplate headerNameplate" href="">
+                    <span class="nameplateText">Запрос</span>
+                </a>
+                                          <span id="searchForm" class="input inputSizeM inputTypeNormal inputThemeNormal">
+                                            <span class="inputBox">
+                                                <input id="headerSearch" class="inputControl" name="headerSearch" aria-labelledby="headerSearch headerSearchLabel" autocomplete="off" itemprop="query-input" value=""/>
+                                                <span class="inputClear"></span>
+                                            </span>
+                                          </span>
+                <button class="button buttonSizeM buttonThemePseudo pjaxAV" role="button" type="submit" data-href="/poisk/">
+                    <span class="buttonText">поиск</span>
+                </button>
+            </form>
+        </div>
+
+        <div class="row">
+            <img src="/images/loading.gif" id="loading" alt="" style="display: none;" />
+            <div class="col-xs-10">
+                <div class="avContentsWrapper">
+                    <div id="tableBoxForm"></div>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div class="catalogFilters" onclick=''>
+                    <div id="tableBoxFilters"></div>
+
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+</body>
+</html>

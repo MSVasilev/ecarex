@@ -1,0 +1,13 @@
+.topmenuItem{
+  height:52px;
+  display:inline-block;
+  line-height:52px;
+  .link {color:$breadcrumbs;}
+}
+
+p {
+  text-align: center; width: 70%;
+  margin: 0 auto;
+  padding: 0;
+  span {font-weight: bold; }
+}

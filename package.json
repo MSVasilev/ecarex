@@ -1,0 +1,45 @@
+{
+  "name": "ecarex",
+  "version": "1.0.0",
+  "author": "MSVasilev",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rigger": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest",
+    "gulp.spritesmith": "latest",
+    "imagemin-pngquant": "latest",
+    "rimraf": "latest",
+    "serve-static": "latest"
+  },
+  "devDependencies": {
+    "connect": "latest",
+    "connect-modrewrite": "latest",
+    "connect-url-rewrite": "latest",
+    "cors": "^2.8.1",
+    "expres": "0.0.5",
+    "express": "^4.14.1",
+    "express-cors": "0.0.3",
+    "graceful-fs": "^4.1.11",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "latest",
+    "gulp-htmlmin": "latest",
+    "gulp-typescript": "^3.1.4",
+    "minimatch": "^3.0.3",
+    "serve-static": "latest",
+    "typescript": "^2.1.5"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": ""
+}
